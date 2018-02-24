@@ -21,4 +21,4 @@ app.get("/hexToRgb", function(req, res) {
 });
 
 app.listen(3000);
-console.log("Benim cici app running");
+console.log("The server app is running!");
