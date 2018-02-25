@@ -1,6 +1,9 @@
 language: node_js
-before_script: npm start
-script: npm test
-after_script: npm stop
+before_script:
+ - npm run start
+script: 
+ - npm run test
+after_script: 
+  - npm run stop
 node_js:
   - "8"
