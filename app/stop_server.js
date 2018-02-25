@@ -9,6 +9,7 @@ const socketClient = io.connect(`http://${HOST}:${PORT}`); // Specify port if yo
 
 socketClient.on('connect', () => {
   socketClient.emit('npmStop');
+  console.log('Stopping the server.');
   setTimeout(() => {
     process.exit(0);
   }, 1000);
