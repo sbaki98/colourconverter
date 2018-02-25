@@ -1,7 +1,12 @@
 var expect = require('chai').expect;
 var request = require('request');
+var constants = require('../../app/constants');
 
-var url_base = "http://127.0.0.1:3000";
+// Constants
+const PORT = constants.PORT;
+const HOST = constants.HOST;
+
+var url_base = `http://${HOST}:${PORT}`;
 
 describe("Color Code Converter API", function() {
 
