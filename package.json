@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./app/server",
     "stop": "node ./app/stop_server",
-    "test": "./node_modules/.bin/mocha test/**/*.spec.js --reporter spec"
+    "test": "./node_modules/.bin/mocha test/unit/*.spec.js --reporter spec"
   },
   "author": "",
   "license": "ISC",
